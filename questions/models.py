@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-class Questions(models.Model):
+class Question(models.Model):
     event = models.ForeignKey(
         to='events.Event',
         related_name='questions',
