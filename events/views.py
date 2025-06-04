@@ -4,6 +4,7 @@ from django.shortcuts import get_object_or_404
 
 from .models import Event
 from .serializers.common import EventSerializer
+from .serializers.populated import PopulatedEventSerializer
 
 
 class EventListCreate(APIView):
@@ -26,7 +27,7 @@ class EventDetailView(APIView):
     #Show
     def get(self, request, pk):
         event = get_object_or_404(Event, pk=pk)
-        serialized_event = EventSerializer(event)
+        serialized_event = PopulatedEventSerializer(event)
         return Response(serialized_event.data)
     
     #Update
