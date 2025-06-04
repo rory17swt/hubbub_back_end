@@ -1,7 +1,9 @@
 from rest_framework.views import APIView
 from rest_framework.response import Response
+from rest_framework.permissions import IsAuthenticated
 
 from .serializers.common import UserSerializer
+from .serializers.populated import ProfileSerializer
 
 
 # Create your views here.
@@ -11,3 +13,12 @@ class SignUpView(APIView):
         serialized_user.is_valid(raise_exception=True)
         serialized_user.save()
         return Response({ f'detail': 'Sign up successful' })
+
+
+# Profile view
+class ProfileView(APIView):
+    permission_classes = [IsAuthenticated]
+
+    def get(self, request):
+        profile = ProfileSerializer(request.user)
+        return Response(profile.data)

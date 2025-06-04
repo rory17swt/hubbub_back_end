@@ -1,13 +1,16 @@
 from rest_framework.views import APIView
 from rest_framework.response import Response
+from rest_framework.permissions import IsAuthenticatedOrReadOnly
 from django.shortcuts import get_object_or_404
 
 from .models import Event
 from .serializers.common import EventSerializer
 from .serializers.populated import PopulatedEventSerializer
+from utils.permissions import IsOwnerOrReadOnly
 
 
 class EventListCreate(APIView):
+    permission_classes = [IsAuthenticatedOrReadOnly]
     #Index
     def get(self, request):
         events = Event.objects.all()
@@ -24,6 +27,7 @@ class EventListCreate(APIView):
 
 
 class EventDetailView(APIView):
+    permission_classes = [IsOwnerOrReadOnly]
     #Show
     def get(self, request, pk):
         event = get_object_or_404(Event, pk=pk)
