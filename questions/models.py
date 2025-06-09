@@ -13,7 +13,7 @@ class Question(models.Model):
         on_delete=models.CASCADE
     )
     question = models.TextField(max_length=1000)
-    response = models.TextField(max_length=1000)
+    response = models.TextField(max_length=1000, blank=True, null=True)
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
