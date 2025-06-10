@@ -1,18 +1,18 @@
 from rest_framework.generics import ListCreateAPIView, RetrieveUpdateDestroyAPIView
 from .models import Question
-from .serializers.common import QuestionSerializer
+from .serializers.populated import populatedQuestionSerializer
 from rest_framework.permissions import BasePermission, IsAuthenticatedOrReadOnly
 
 
 class IsEventOwnerOrReadOnly(BasePermission):
-    def has_object_permission(self, request, obj):
+    def has_object_permission(self, request, view, obj):
         if request.method == 'GET':
             return True
         return obj.event.owner == request.user
 
 
 class QuestionListView(ListCreateAPIView):
-    serializer_class = QuestionSerializer
+    serializer_class = populatedQuestionSerializer
     permission_classes = [IsAuthenticatedOrReadOnly]
 
     def get_queryset(self):
@@ -26,5 +26,5 @@ class QuestionListView(ListCreateAPIView):
 
 class QuestionDetailView(RetrieveUpdateDestroyAPIView):
     queryset = Question.objects.all()
-    serializer_class = QuestionSerializer
+    serializer_class = populatedQuestionSerializer
     permission_classes = [IsEventOwnerOrReadOnly]

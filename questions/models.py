@@ -5,12 +5,14 @@ class Question(models.Model):
     event = models.ForeignKey(
         to='events.Event',
         related_name='questions',
-        on_delete=models.CASCADE
+        on_delete=models.CASCADE,
+        blank=True
     )
     owner = models.ForeignKey(
         to='users.User',
         related_name='questions',
-        on_delete=models.CASCADE
+        on_delete=models.CASCADE,
+        blank=True
     )
     question = models.TextField(max_length=1000)
     response = models.TextField(max_length=1000, blank=True, null=True)
