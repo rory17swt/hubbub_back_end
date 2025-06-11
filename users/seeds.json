@@ -1,0 +1,97 @@
+[
+  {
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$wBYZyqWNrH6PMcxFaQOVBx$Z4dmoqSTN/jhOA+NrcDCHMpC8RVClISbkOLhsqkkyec=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-06-10T15:25:44.048Z",
+      "username": "rory",
+      "email": "rory@test.com",
+      "bio": "Event enthusiast and local host in the arts scene.",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$wBYZyqWNrH6PMcxFaQOVBx$Z4dmoqSTN/jhOA+NrcDCHMpC8RVClISbkOLhsqkkyec=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-06-10T15:25:44.048Z",
+      "username": "alex",
+      "email": "alex@test.com",
+      "bio": "Tech-savvy organizer who loves bringing people together.",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$wBYZyqWNrH6PMcxFaQOVBx$Z4dmoqSTN/jhOA+NrcDCHMpC8RVClISbkOLhsqkkyec=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-06-10T15:25:44.048Z",
+      "username": "jamie",
+      "email": "jamie@test.com",
+      "bio": "Passionate about community projects and local initiatives.",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$wBYZyqWNrH6PMcxFaQOVBx$Z4dmoqSTN/jhOA+NrcDCHMpC8RVClISbkOLhsqkkyec=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-06-10T15:25:44.048Z",
+      "username": "morgan",
+      "email": "morgan@test.com",
+      "bio": "Avid traveler sharing cultural events and stories.",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$wBYZyqWNrH6PMcxFaQOVBx$Z4dmoqSTN/jhOA+NrcDCHMpC8RVClISbkOLhsqkkyec=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-06-10T15:25:44.048Z",
+      "username": "taylor",
+      "email": "taylor@test.com",
+      "bio": "Music lover and social event coordinator.",
+      "groups": [],
+      "user_permissions": []
+    }
+  }
+]

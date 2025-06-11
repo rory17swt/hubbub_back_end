@@ -1,0 +1,322 @@
+[
+  {
+    "model": "events.event",
+    "pk": 1,
+    "fields": {
+      "owner": 2,
+      "title": "Art Night",
+      "description": "Explore local art.",
+      "location": "Gallery Hall",
+      "start_datetime": "2025-06-15T18:00:00Z",
+      "duration": "02:30:00",
+      "contact_email": "curator@events.com",
+      "created_at": "2025-06-10T12:30:00.000Z",
+      "updated_at": "2025-06-10T12:30:00.000Z",
+      "image": "media/images/DSC00001.jpg"
+    }
+  },
+  {
+    "model": "events.event",
+    "pk": 2,
+    "fields": {
+      "owner": 4,
+      "title": "Live Jazz",
+      "description": "Evening of smooth jazz.",
+      "location": "Downtown Club",
+      "start_datetime": "2025-06-18T20:00:00Z",
+      "duration": "03:00:00",
+      "contact_email": "music@events.com",
+      "created_at": "2025-06-10T13:00:00.000Z",
+      "updated_at": "2025-06-10T13:00:00.000Z",
+      "image": "media/images/DSC00002.jpg"
+    }
+  },
+  {
+    "model": "events.event",
+    "pk": 3,
+    "fields": {
+      "owner": 1,
+      "title": "Tech Meetup",
+      "description": "Talks on AI and robotics.",
+      "location": "Tech Hub",
+      "start_datetime": "2025-06-20T14:00:00Z",
+      "duration": "04:00:00",
+      "contact_email": "info@techhub.com",
+      "created_at": "2025-06-10T13:10:00.000Z",
+      "updated_at": "2025-06-10T13:10:00.000Z",
+      "image": "media/images/DSC00003.jpg"
+    }
+  },
+  {
+    "model": "events.event",
+    "pk": 4,
+    "fields": {
+      "owner": 5,
+      "title": "Book Launch",
+      "description": "New novel release event.",
+      "location": "City Library",
+      "start_datetime": "2025-06-22T17:30:00Z",
+      "duration": "01:30:00",
+      "contact_email": "contact@library.com",
+      "created_at": "2025-06-10T13:15:00.000Z",
+      "updated_at": "2025-06-10T13:15:00.000Z",
+      "image": "media/images/DSC00004.jpg"
+    }
+  },
+  {
+    "model": "events.event",
+    "pk": 5,
+    "fields": {
+      "owner": 3,
+      "title": "Food Festival",
+      "description": "Tasting from around the world.",
+      "location": "Central Park",
+      "start_datetime": "2025-06-25T12:00:00Z",
+      "duration": "06:00:00",
+      "contact_email": "foodie@festival.com",
+      "created_at": "2025-06-10T13:20:00.000Z",
+      "updated_at": "2025-06-10T13:20:00.000Z",
+      "image": "media/images/DSC00005.jpg"
+    }
+  },
+  {
+    "model": "events.event",
+    "pk": 6,
+    "fields": {
+      "owner": 4,
+      "title": "Coding Bootcamp",
+      "description": "Beginner-friendly workshop.",
+      "location": "Innovation Center",
+      "start_datetime": "2025-06-27T09:00:00Z",
+      "duration": "08:00:00",
+      "contact_email": "train@bootcamp.com",
+      "created_at": "2025-06-10T13:25:00.000Z",
+      "updated_at": "2025-06-10T13:25:00.000Z",
+      "image": "media/images/DSC00006.jpg"
+    }
+  },
+  {
+    "model": "events.event",
+    "pk": 7,
+    "fields": {
+      "owner": 2,
+      "title": "Marathon",
+      "description": "City-wide race event.",
+      "location": "Main Street",
+      "start_datetime": "2025-06-30T06:00:00Z",
+      "duration": "05:00:00",
+      "contact_email": "run@marathon.com",
+      "created_at": "2025-06-10T13:30:00.000Z",
+      "updated_at": "2025-06-10T13:30:00.000Z",
+      "image": "media/images/DSC00007.jpg"
+    }
+  },
+  {
+    "model": "events.event",
+    "pk": 8,
+    "fields": {
+      "owner": 5,
+      "title": "Outdoor Movie Night",
+      "description": "Family movie under the stars.",
+      "location": "Riverside Park",
+      "start_datetime": "2025-07-02T21:00:00Z",
+      "duration": "02:00:00",
+      "contact_email": "cinema@events.com",
+      "created_at": "2025-06-10T13:35:00.000Z",
+      "updated_at": "2025-06-10T13:35:00.000Z",
+      "image": "media/images/DSC00008.jpg"
+    }
+  },
+  {
+    "model": "events.event",
+    "pk": 9,
+    "fields": {
+      "owner": 1,
+      "title": "Yoga in the Park",
+      "description": "Morning yoga session.",
+      "location": "Green Meadows",
+      "start_datetime": "2025-07-04T07:00:00Z",
+      "duration": "01:00:00",
+      "contact_email": "zen@yoga.com",
+      "created_at": "2025-06-10T13:40:00.000Z",
+      "updated_at": "2025-06-10T13:40:00.000Z",
+      "image": "media/images/DSC00009.jpg"
+    }
+  },
+  {
+    "model": "events.event",
+    "pk": 10,
+    "fields": {
+      "owner": 3,
+      "title": "Photography Walk",
+      "description": "Capture nature's beauty.",
+      "location": "Nature Reserve",
+      "start_datetime": "2025-07-06T10:00:00Z",
+      "duration": "03:00:00",
+      "contact_email": "photos@walk.com",
+      "created_at": "2025-06-10T13:45:00.000Z",
+      "updated_at": "2025-06-10T13:45:00.000Z",
+      "image": "media/images/DSC00010.jpg"
+    }
+  },
+  {
+    "model": "events.event",
+    "pk": 11,
+    "fields": {
+      "owner": 1,
+      "title": "Stand-up Comedy",
+      "description": "An evening of laughs.",
+      "location": "Comedy Cellar",
+      "start_datetime": "2025-07-08T19:00:00Z",
+      "duration": "02:00:00",
+      "contact_email": "funny@comedy.com",
+      "created_at": "2025-06-10T13:50:00.000Z",
+      "updated_at": "2025-06-10T13:50:00.000Z",
+      "image": "media/images/DSC00011.jpg"
+    }
+  },
+  {
+    "model": "events.event",
+    "pk": 12,
+    "fields": {
+      "owner": 2,
+      "title": "Science Fair",
+      "description": "Youth science projects on display.",
+      "location": "High School Gym",
+      "start_datetime": "2025-07-10T10:00:00Z",
+      "duration": "05:00:00",
+      "contact_email": "team@sciencefair.com",
+      "created_at": "2025-06-10T13:55:00.000Z",
+      "updated_at": "2025-06-10T13:55:00.000Z",
+      "image": "media/images/DSC00012.jpg"
+    }
+  },
+  {
+    "model": "events.event",
+    "pk": 13,
+    "fields": {
+      "owner": 4,
+      "title": "Networking Brunch",
+      "description": "Connect with professionals.",
+      "location": "Downtown Café",
+      "start_datetime": "2025-07-12T11:00:00Z",
+      "duration": "02:00:00",
+      "contact_email": "rsvp@networking.com",
+      "created_at": "2025-06-10T14:00:00.000Z",
+      "updated_at": "2025-06-10T14:00:00.000Z",
+      "image": "media/images/DSC00013.jpg"
+    }
+  },
+  {
+    "model": "events.event",
+    "pk": 14,
+    "fields": {
+      "owner": 5,
+      "title": "Game Night",
+      "description": "Board games and snacks.",
+      "location": "Community Center",
+      "start_datetime": "2025-07-15T18:30:00Z",
+      "duration": "04:00:00",
+      "contact_email": "games@community.com",
+      "created_at": "2025-06-10T14:05:00.000Z",
+      "updated_at": "2025-06-10T14:05:00.000Z",
+      "image": "media/images/DSC00014.jpg"
+    }
+  },
+  {
+    "model": "events.event",
+    "pk": 15,
+    "fields": {
+      "owner": 3,
+      "title": "Karaoke Contest",
+      "description": "Sing your heart out!",
+      "location": "Melody Lounge",
+      "start_datetime": "2025-07-17T20:00:00Z",
+      "duration": "03:30:00",
+      "contact_email": "karaoke@music.com",
+      "created_at": "2025-06-10T14:10:00.000Z",
+      "updated_at": "2025-06-10T14:10:00.000Z",
+      "image": "media/images/DSC00015.jpg"
+    }
+  },
+  {
+    "model": "events.event",
+    "pk": 16,
+    "fields": {
+      "owner": 2,
+      "title": "Craft Workshop",
+      "description": "Make your own pottery.",
+      "location": "Art Studio",
+      "start_datetime": "2025-07-19T13:00:00Z",
+      "duration": "03:00:00",
+      "contact_email": "craft@workshop.com",
+      "created_at": "2025-06-10T14:15:00.000Z",
+      "updated_at": "2025-06-10T14:15:00.000Z",
+      "image": "media/images/DSC00016.jpg"
+    }
+  },
+  {
+    "model": "events.event",
+    "pk": 17,
+    "fields": {
+      "owner": 4,
+      "title": "Startup Pitch Day",
+      "description": "Watch startups pitch ideas.",
+      "location": "Innovation Hub",
+      "start_datetime": "2025-07-21T15:00:00Z",
+      "duration": "04:00:00",
+      "contact_email": "pitch@startup.com",
+      "created_at": "2025-06-10T14:20:00.000Z",
+      "updated_at": "2025-06-10T14:20:00.000Z",
+      "image": "media/images/DSC00017.jpg"
+    }
+  },
+  {
+    "model": "events.event",
+    "pk": 18,
+    "fields": {
+      "owner": 5,
+      "title": "Charity Auction",
+      "description": "Bid for a good cause.",
+      "location": "Town Hall",
+      "start_datetime": "2025-07-24T19:00:00Z",
+      "duration": "02:30:00",
+      "contact_email": "give@charity.com",
+      "created_at": "2025-06-10T14:25:00.000Z",
+      "updated_at": "2025-06-10T14:25:00.000Z",
+      "image": "media/images/DSC00018.jpg"
+    }
+  },
+  {
+    "model": "events.event",
+    "pk": 19,
+    "fields": {
+      "owner": 1,
+      "title": "Film Screening",
+      "description": "Indie film premiere.",
+      "location": "Art House Cinema",
+      "start_datetime": "2025-07-26T20:00:00Z",
+      "duration": "02:00:00",
+      "contact_email": "film@cinema.com",
+      "created_at": "2025-06-10T14:30:00.000Z",
+      "updated_at": "2025-06-10T14:30:00.000Z",
+      "image": "media/images/DSC00019.jpg"
+    }
+  },
+  {
+    "model": "events.event",
+    "pk": 20,
+    "fields": {
+      "owner": 3,
+      "title": "Beach Cleanup",
+      "description": "Volunteer for ocean health.",
+      "location": "Sunny Beach",
+      "start_datetime": "2025-07-28T08:00:00Z",
+      "duration": "04:00:00",
+      "contact_email": "volunteer@eco.org",
+      "created_at": "2025-06-10T14:35:00.000Z",
+      "updated_at": "2025-06-10T14:35:00.000Z",
+      "image": "media/images/DSC00020.jpg"
+    }
+  }
+]
