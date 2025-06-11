@@ -1,16 +1,19 @@
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework.permissions import IsAuthenticatedOrReadOnly
+from rest_framework.parsers import MultiPartParser, FormParser
 from django.shortcuts import get_object_or_404
 
 from .models import Event
 from .serializers.common import EventSerializer
 from .serializers.populated import PopulatedEventSerializer
 from utils.permissions import IsOwnerOrReadOnly
+from utils.cloudinary import handle_file_upload
 
 
 class EventListCreate(APIView):
     permission_classes = [IsAuthenticatedOrReadOnly]
+    parser_classes = [MultiPartParser, FormParser]
     #Index
     def get(self, request):
         events = Event.objects.all()
@@ -19,8 +22,9 @@ class EventListCreate(APIView):
 
     #Create
     def post(self, request):
-        request.data['owner'] = request.user.id
-        serialized_event = EventSerializer(data=request.data)
+        data = handle_file_upload(request, 'image')
+        data['owner'] = request.user.id
+        serialized_event = EventSerializer(data=data)
         serialized_event.is_valid(raise_exception=True)
         serialized_event.save()
         return Response(serialized_event.data, 201)
@@ -28,6 +32,7 @@ class EventListCreate(APIView):
 
 class EventDetailView(APIView):
     permission_classes = [IsOwnerOrReadOnly]
+    parser_classes = [MultiPartParser, FormParser]
     #Show
     def get(self, request, pk):
         event = get_object_or_404(Event, pk=pk)
@@ -38,7 +43,8 @@ class EventDetailView(APIView):
     def put(self, request, pk):
         event = get_object_or_404(Event, pk=pk)
         self.check_object_permissions(request, event)
-        serilized_event = EventSerializer(event, data=request.data, partial=True)
+        data = handle_file_upload(request, 'image')
+        serilized_event = EventSerializer(event, data=data, partial=True)
         serilized_event.is_valid(raise_exception=True)
         serilized_event.save()
         return Response(serilized_event.data)

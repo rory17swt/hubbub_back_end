@@ -12,8 +12,8 @@ djangorestframework = "*"
 django-environ = "*"
 djangorestframework-simplejwt = "*"
 django-cors-headers = "*"
-django-cloudinary-storage = "*"
 pillow = "*"
+cloudinary = "*"
 
 [dev-packages]
 
