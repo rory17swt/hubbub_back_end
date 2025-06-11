@@ -7,4 +7,4 @@ class ProfileSerializer(ModelSerializer):
     
     class Meta:
         model = User
-        fields = ['id', 'username', 'events']
+        fields = ['id', 'username', 'events', 'bio']
