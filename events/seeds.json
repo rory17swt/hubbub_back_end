@@ -12,7 +12,7 @@
       "contact_email": "curator@events.com",
       "created_at": "2025-06-10T12:30:00.000Z",
       "updated_at": "2025-06-10T12:30:00.000Z",
-      "image": "media/images/DSC00001.jpg"
+      "image": "https://res.cloudinary.com/douqojlp6/image/upload/v1749720575/Art_Event_ar6h02.png"
     }
   },
   {
@@ -28,7 +28,7 @@
       "contact_email": "music@events.com",
       "created_at": "2025-06-10T13:00:00.000Z",
       "updated_at": "2025-06-10T13:00:00.000Z",
-      "image": "media/images/DSC00002.jpg"
+      "image": "https://res.cloudinary.com/douqojlp6/image/upload/v1749720854/Live_Jazz_pcxx0m.png"
     }
   },
   {
@@ -44,7 +44,7 @@
       "contact_email": "info@techhub.com",
       "created_at": "2025-06-10T13:10:00.000Z",
       "updated_at": "2025-06-10T13:10:00.000Z",
-      "image": "media/images/DSC00003.jpg"
+      "image": "https://res.cloudinary.com/douqojlp6/image/upload/v1749721033/Tech_Meetup_ihfmus.png"
     }
   },
   {
@@ -60,7 +60,7 @@
       "contact_email": "contact@library.com",
       "created_at": "2025-06-10T13:15:00.000Z",
       "updated_at": "2025-06-10T13:15:00.000Z",
-      "image": "media/images/DSC00004.jpg"
+      "image": "https://res.cloudinary.com/douqojlp6/image/upload/v1749721125/Book_Launch_ndvfak.png"
     }
   },
   {
@@ -76,7 +76,7 @@
       "contact_email": "foodie@festival.com",
       "created_at": "2025-06-10T13:20:00.000Z",
       "updated_at": "2025-06-10T13:20:00.000Z",
-      "image": "media/images/DSC00005.jpg"
+      "image": "https://res.cloudinary.com/douqojlp6/image/upload/v1749721379/Food_Festival_xulq8i.png"
     }
   },
   {
@@ -92,7 +92,7 @@
       "contact_email": "train@bootcamp.com",
       "created_at": "2025-06-10T13:25:00.000Z",
       "updated_at": "2025-06-10T13:25:00.000Z",
-      "image": "media/images/DSC00006.jpg"
+      "image": "https://res.cloudinary.com/douqojlp6/image/upload/v1749721545/Coding_Bootcamp_vjspxd.png"
     }
   },
   {
@@ -108,7 +108,7 @@
       "contact_email": "run@marathon.com",
       "created_at": "2025-06-10T13:30:00.000Z",
       "updated_at": "2025-06-10T13:30:00.000Z",
-      "image": "media/images/DSC00007.jpg"
+      "image": "https://res.cloudinary.com/douqojlp6/image/upload/v1749721638/Marathon_k2hsz9.png"
     }
   },
   {
@@ -124,7 +124,7 @@
       "contact_email": "cinema@events.com",
       "created_at": "2025-06-10T13:35:00.000Z",
       "updated_at": "2025-06-10T13:35:00.000Z",
-      "image": "media/images/DSC00008.jpg"
+      "image": "https://res.cloudinary.com/douqojlp6/image/upload/v1749722521/Outdoor_Movie_Night_cpaqbp.png"
     }
   },
   {
@@ -140,7 +140,7 @@
       "contact_email": "zen@yoga.com",
       "created_at": "2025-06-10T13:40:00.000Z",
       "updated_at": "2025-06-10T13:40:00.000Z",
-      "image": "media/images/DSC00009.jpg"
+      "image": "https://res.cloudinary.com/douqojlp6/image/upload/v1749722677/Yoga_in_the_Park_yjglzo.png"
     }
   },
   {
@@ -156,7 +156,7 @@
       "contact_email": "photos@walk.com",
       "created_at": "2025-06-10T13:45:00.000Z",
       "updated_at": "2025-06-10T13:45:00.000Z",
-      "image": "media/images/DSC00010.jpg"
+      "image": "https://res.cloudinary.com/douqojlp6/image/upload/v1749722822/Photography_Walk_hsarxy.png"
     }
   },
   {
@@ -172,7 +172,7 @@
       "contact_email": "funny@comedy.com",
       "created_at": "2025-06-10T13:50:00.000Z",
       "updated_at": "2025-06-10T13:50:00.000Z",
-      "image": "media/images/DSC00011.jpg"
+      "image": "https://res.cloudinary.com/douqojlp6/image/upload/v1749723023/Stand-up_Comedy_yjylkf.png"
     }
   },
   {
@@ -188,7 +188,7 @@
       "contact_email": "team@sciencefair.com",
       "created_at": "2025-06-10T13:55:00.000Z",
       "updated_at": "2025-06-10T13:55:00.000Z",
-      "image": "media/images/DSC00012.jpg"
+      "image": "https://res.cloudinary.com/douqojlp6/image/upload/v1749723146/Science_Fair_tz9dhy.png"
     }
   },
   {
@@ -204,7 +204,7 @@
       "contact_email": "rsvp@networking.com",
       "created_at": "2025-06-10T14:00:00.000Z",
       "updated_at": "2025-06-10T14:00:00.000Z",
-      "image": "media/images/DSC00013.jpg"
+      "image": "https://res.cloudinary.com/douqojlp6/image/upload/v1749723363/Networking_Brunch_dv9nol.png"
     }
   },
   {
@@ -220,7 +220,7 @@
       "contact_email": "games@community.com",
       "created_at": "2025-06-10T14:05:00.000Z",
       "updated_at": "2025-06-10T14:05:00.000Z",
-      "image": "media/images/DSC00014.jpg"
+      "image": "https://res.cloudinary.com/douqojlp6/image/upload/v1749723511/Game_Night_e9wmrw.png"
     }
   },
   {
@@ -236,7 +236,7 @@
       "contact_email": "karaoke@music.com",
       "created_at": "2025-06-10T14:10:00.000Z",
       "updated_at": "2025-06-10T14:10:00.000Z",
-      "image": "media/images/DSC00015.jpg"
+      "image": "https://res.cloudinary.com/douqojlp6/image/upload/v1749723771/Karaoke_Contest_ueux43.png"
     }
   },
   {
@@ -252,7 +252,7 @@
       "contact_email": "craft@workshop.com",
       "created_at": "2025-06-10T14:15:00.000Z",
       "updated_at": "2025-06-10T14:15:00.000Z",
-      "image": "media/images/DSC00016.jpg"
+      "image": "https://res.cloudinary.com/douqojlp6/image/upload/v1749723977/Craft_Workshop_m8kyb0.png"
     }
   },
   {
@@ -268,7 +268,7 @@
       "contact_email": "pitch@startup.com",
       "created_at": "2025-06-10T14:20:00.000Z",
       "updated_at": "2025-06-10T14:20:00.000Z",
-      "image": "media/images/DSC00017.jpg"
+      "image": "https://res.cloudinary.com/douqojlp6/image/upload/v1749724069/Startup_Pitch_Day_d0naji.png"
     }
   },
   {
@@ -284,7 +284,7 @@
       "contact_email": "give@charity.com",
       "created_at": "2025-06-10T14:25:00.000Z",
       "updated_at": "2025-06-10T14:25:00.000Z",
-      "image": "media/images/DSC00018.jpg"
+      "image": "https://res.cloudinary.com/douqojlp6/image/upload/v1749724165/Charity_Auction_pi2tv6.png"
     }
   },
   {
@@ -300,7 +300,7 @@
       "contact_email": "film@cinema.com",
       "created_at": "2025-06-10T14:30:00.000Z",
       "updated_at": "2025-06-10T14:30:00.000Z",
-      "image": "media/images/DSC00019.jpg"
+      "image": "https://res.cloudinary.com/douqojlp6/image/upload/v1749724285/Film_Screening_k0v2ts.png"
     }
   },
   {
@@ -316,7 +316,7 @@
       "contact_email": "volunteer@eco.org",
       "created_at": "2025-06-10T14:35:00.000Z",
       "updated_at": "2025-06-10T14:35:00.000Z",
-      "image": "media/images/DSC00020.jpg"
+      "image": "https://res.cloudinary.com/douqojlp6/image/upload/v1749724408/Beach_Cleanup_q2yzvr.png"
     }
   }
 ]
