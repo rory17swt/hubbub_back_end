@@ -36,6 +36,7 @@ if DEBUG:
 
     CORS_ALLOWED_ORIGINS = [
         "http://localhost:5173", # Local frontend url
+        "http://localhost:5174",
         "https://hubbub-app.netlify.app",
     ]
 
