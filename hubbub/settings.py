@@ -51,6 +51,7 @@ else:
     CORS_ALLOWED_ORIGINS = [
         env('DEPLOYED_FRONTEND_URL'), # Deployed frontend url only
         "http://localhost:5173",
+        "http://localhost:5174",
     ]
 
     CSRF_TRUSTED_ORIGINS = [
